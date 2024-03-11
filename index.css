@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    font-family:'Times New Roman', Times, serif;
+}
+/* nav */
+
+header{
+              width: 100%;
+              z-index: 10000;
+              position: fixed;
+}
+
+.containt{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: rgb(42, 207, 207);
+   
+    left: 0;
+    right: 0;
+
+}
+
+.logo img{
+            height:50px;
+            border: 2px solid white;
+            border-radius: 50px;
+}
+
+.logo img:hover{
+    border: 2px solid red;
+    transform: rotate(360deg);                  
+}
+
+.Search i {
+                     color:white
+ }
+
+ .Search i:hover{
+                    color: black;
+                    font-size: 20px;
+ }
+ 
+ .containt ul li{
+           display: inline-block;
+           list-style: none;
+           padding: 30px;
+}
+
+ul li a{
+               font-size: 20px;
+               font-weight: 900;
+               color: white;
+}
+
+ul li a:hover{
+                     text-decoration: underline;
+                     font-weight:bold;
+                             
+}
+/* home..... */
+.background-img{
+           align-items: center;
+           text-align: center;
+    
+                background: url(images/background.jpg);
+                width: 100%;
+                height:700px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: fixed;
+                padding: 20% 8% 20% 5%;
+                
+}
+
+.bacground-content{
+    
+                  margin-top: 5%;
+                    margin-right:60% ;
+                                        
+}
+
+.bacground-content h2{
+                         font-size: 2.5rem;
+                         font-weight: 500;
+}  
+
+.bacground-content h1{
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.bacground-content p{
+    font-size: 1rem;
+    font-weight:300;
+    margin-bottom: 10px;
+    
+}
+
+ .bacground-content .fa-solid{
+             color: white;
+             font-size: 50px;
+              color:rgb(42, 207, 207);     
+ }
+
+   .bacground-content .fa-solid:hover{
+                       font-size: 60px;
+                       border: 2px solid white;
+                       border-radius: 50%;
+}
+
+/* our services */
+
+.services-contenair{
+                       display: flex;
+                       flex-wrap: wrap;
+                       margin-top: 30px ;
+                       margin-left: 250px;
+                       margin-right: 200px;
+                       padding: 5px;
+
+}
+
+.our-services h4{
+                font-size: 35px;
+                text-align: center;
+                margin-top: 100px;
+                font-weight: 900;
+                transition: 0.1s all ease-in-out;
+}
+
+.our-services h4 span{
+                            color:rgb(42, 207, 207) ;
+}
+
+.our-services h4:hover{
+                      text-decoration: underline;
+                      text-decoration-color:rgb(42, 207, 207);
+ }
+
+.services{
+                height:400px;
+                width: 300px;
+                background-color: whitesmoke;
+                margin: 15px;
+                box-shadow: 10px 10px 10px rgb(152, 145, 145);
+}
+
+.services img{
+                 height: 200px;
+                 width: 300px;
+                 
+}
+
+.services h5{
+              text-align: center;
+              margin-top: 10px;
+              font-size: 25px;
+               
+}
+
+.services p{
+                   font-size: 15px;
+                   margin-top: 10px;
+                 font-weight: 300;
+ }
+
+.services button{
+                    margin-top:25px;
+                    padding:10px 15px 10px 15px;
+                    border-radius:7px;
+                    background:linear-gradient(rgb(0, 255, 255),rgb(7, 69, 69)) ;
+                     font-size: 15px;
+                     font-weight: 500;
+                     border: 2px solid rgb(7, 69, 69) ;
+                     transition: 0.3s all ease-in-out;
+  }
+
+.services .read{
+                 text-align: center;
+}
+
+.services button:hover{
+                        padding:10px ;
+                        border-radius: 15px;
+                        color: white;
+}
+
+
+/* Make Appoinment */
+
+.Appoinment-container{
+                       width: 80%;
+                       display: flex;
+                       align-items: center;
+                       justify-content:space-between;
+                       margin-left:150px;
+                       gap:4rem;
+                       
+                            
+}
+
+.make-appoinment h4{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.make-appoinment h4 span{
+    color:rgb(42, 207, 207) ;
+                      
+}
+.main-content h2{
+                    font-size: 25px;
+                    font-weight: bold;
+                    margin-bottom: 30px;
+}
+.main-content h2 span{
+    color:rgb(42, 207, 207) ; 
+    line-height: 5px;  
+}
+
+.main-content p{
+                 font-size: 15px;
+                 font-weight: 300;
+                 line-height: 25px;
+}
+.main-content .btn-appoinment{
+                              text-align: center;
+                              margin-top: 60px;
+}                    
+.btn-appoinment button{
+                        height: 40px;
+                        padding: 5px;
+                        font-size: 15px;
+                        background:linear-gradient(rgb(0, 255, 255),rgb(7, 69, 69)) ;
+                        transition: 0.3s all ease-in-out;
+                    }
+.btn-appoinment button:hover{
+                                border-radius: 10px;
+                                color:white ;
+}
+
+
+/* Our experts */
+
+.our-experts h4{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.our-experts h4 span{
+    
+    color:rgb(42, 207, 207);
+
+}
+.expert-container{
+                  
+                  display: flex;
+                  gap:30px;
+                  flex-wrap: wrap;
+                  justify-content:center;
+}
+.expert-container img{
+                        width:350px;
+                        height: 350px;
+                        transition: 1s all ease-in-out;
+}
+.expert-container img:hover{
+                            transform: scale(0.9);
+}
+.doctor{
+         height: 500px;
+         margin-bottom: 5px;
+         background-color: white;
+}
+.doctor h2{
+                text-align: center;
+                margin-top: 20px;
+                color: rgb(42, 207, 207) ;
+                font-weight: bold;
+                font-style: italic;
+                transition: 0.3s all ease-in-out;
+}
+.doctor h2:hover{
+                     transform: translatey(-10px);
+
+}
+.doctor .icons{
+              text-align: center;
+              margin-top: 10px;
+              color: white;
+             
+              
+}
+.doctor .icons i{
+                 border: 2px solid rgb(10, 94, 94);
+                 padding: 5px;
+                 margin-left: 15px;
+                 background-color: rgb(10, 94, 94);
+                   transition:1s all ease-in-out;
+                }
+.doctor .icons .fa-brands:hover{
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+
+/* contact form */
+.contact-form-img {
+                  height: 600px;
+                  background-image: url(images/contact-form.avif);
+                 background-position:center;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+
+}
+form{
+    height: 500px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 40rem;
+   
+    
+    
+      
+}
+.form-content{
+    margin-top: 5rem;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+
+    background: linear-gradient(rgba(0,0,0,.2),rgba(41, 129, 201, 0.2));
+
+ 
+                 
+}
+.form-content h2{
+                  margin-bottom:30px;
+                  margin-left: 1rem;
+                  color:black;
+                  font-weight: 900;
+}
+.form-content h2 span{
+    text-decoration: underline;
+
+}
+
+.field{
+         padding: 10px;
+         margin-bottom: 15px;
+         border-radius: 20px;
+         width: 350px;
+         border: none;
+         margin-left: 1rem;
+    }
+    .form-content button{
+                           padding: 10px;
+                           width: 6rem;
+                           border-radius: 20px;
+                           border:none;
+                           font-weight:bold;
+                         
+    }
+    .form-content .but{
+                         margin-left: 2rem;
+    }
+    .fa-solid {
+               margin-left: 10px;
+    }
+
+
+      /* feedback start here */
+
+      .feedback-content{
+        /* margin-top: 2rem; */
+        height: 400px;
+        width: 700px;
+        border-radius: 20px;
+    
+        background: linear-gradient(rgba(0,0,0,.2),rgb(105, 205, 205));
+    
+        
+      }
+
+      .feedback-form-img {
+        height: 500px;
+        background-image: url(images/feedback2.jpg);
+       background-position:center;
+       background-repeat: no-repeat;
+       background-size: cover;
+
+}
+      .form{
+        height: 500px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-left: 25rem;
+      }    
+      .feedback-content h2{
+        margin-bottom:30px;
+        margin-left: 1rem;
+        color:black;
+        font-weight: 900;
+}
+.feedback-content h2 span{
+text-decoration: underline;
+
+}
+
+.field{
+padding: 10px;
+margin-bottom: 15px;
+border-radius: 20px;
+width: 350px;
+border: none;
+margin-left: 1rem;
+}
+.feedback-content button{
+                 padding: 10px;
+                 width: 6rem;
+                 border-radius: 20px;
+                 border:none;
+                 font-weight:bold;
+               
+}
+.feedback-content .but{
+               margin-left: 2rem;
+}
+.fa-solid {
+     margin-left: 10px;
+}
+      
+
+    /* footer start here */
+
+ footer{
+             height: 400px;
+             width: 100%;
+             background-color: black;
+             color: white;
+             display: flex;
+             flex-direction:row;
+             justify-content: center;
+             align-items: center;
+             margin-top: 30px;
+
+            
+ }
+ .footer-containt{
+                      
+                      display: flex;
+                      gap:10rem;
+                      line-height: 2.5rem;
+                    
+
+ }
+ .footer-containt h2{
+                 margin-bottom: 30px;
+                 transition: all 0.3s ease-in-out;
+ }
+ .footer-containt h2:hover{
+                                  text-decoration: underline;
+                                  text-decoration-color: red;
+                                  transform: translateY(-10px);
+ }
+ .follow .fa-brands{
+                         border:2px solid;
+                         padding: 7px;
+                         border: none;
+                         font-size: 20px;
+                         margin-right: 5px;
+                        background-color: rgb(41, 36, 36);
+                         color: white;
+                    }
+ .follow .fa-brands:hover{
+                          background-color: red;
+ }
+ 
+        
+ 
+ .review-containt{
+                   display: flex;
+                  justify-content: space-around;
+                   flex-wrap: wrap;
+ }
+ .reviewno{
+            height: 300px;
+            width: 250px;
+            background: linear-gradient(rgba(0,0,0,.2),rgba(41, 129, 201, 0.2));
+            box-shadow: 10px 10px 10px rgb(152, 145, 145);
+            border-radius: 20px;
+            margin: 5px;
+            margin-bottom: 20px;
+ }
+ .photo {
+                text-align: center;
+                margin-top: 30px;
+ }
+ .reviewno{
+               text-align: center;
+ }
+ .reviewno h5{
+                     font-size: 20px;
+                     padding: 10px;
+ }
+ .photo img{
+               height: 80px;
+               border-radius: 50%;
+               width: 80px;
+
+ }
+ .reviewno .star{
+                  margin-bottom: 10px;
+ }
+ .reviewno button{
+                 margin-top: 10px;
+                  padding: 5px;
+                  border-radius: 8px;
+                  background-color:rgb(25, 185, 185);
+                  color:white;
+                  border: none;
+ }
